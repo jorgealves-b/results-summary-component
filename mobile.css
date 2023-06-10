@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap');
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+}
+
+main {
+    max-width: 375px;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 5px 5px 16px grey;
+    margin: auto;
+}
+
+p {
+    color: hsla(222, 100%, 96%, 0.712);
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-weight: 700;
+}
+
+.top-score {
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsla(256, 72%, 46%, 1),hsl(241, 81%, 54%));
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 0.5rem;
+    border-radius: 1.5rem;
+}
+
+.top-score h3 {
+    color: hsla(222, 100%, 96%, 0.712);
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.total-score {
+    background-image: linear-gradient(hsl(241, 74%, 60%), hsl(252, 79%, 52%) );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+} 
+
+.top-score span {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    
+}
+
+.summary span {
+    color: hsl(224, 30%, 27%);
+    font-weight: bolder;
+}
+
+.summary p {
+    color: hsl(222, 13%, 71%);
+}
+
+.summary h3 {
+    color: hsl(224, 30%, 27%);
+    text-align: left;
+}
+
+.attributes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 1rem;
+}
+
+.reac {
+    background-color:hsla(0, 100%, 67%, 0.13) ;
+}
+
+.memo {
+    background-color:hsla(39, 100%, 56%, 0.082); 
+}
+
+.verb {
+    background-color:hsla(166, 100%, 37%, 0.068) ;
+}
+
+.visu {
+    background-color:hsla(234, 85%, 45%, 0.068) ;
+}
+.reaction {
+    color: hsl(0, 100%, 67%);
+}
+
+.memory {
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+   color:  hsl(166, 100%, 37%);
+}
+
+.visual {
+    color: hsl(234, 85%, 45%);
+}
+.att-left{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 600;
+}
+
+button {
+    width: 100%;
+    background-color: hsl(224, 30%, 27%);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-image: linear-gradient(hsl(241, 74%, 60%), hsl(252, 79%, 52%) );
+}
+
+
+ 

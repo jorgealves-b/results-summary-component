@@ -1,0 +1,20 @@
+@media screen and (min-width: 998px) {
+
+    main {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        max-width: 800px;
+        margin: 10rem ;
+        transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    .top-score {
+        width: 50%;
+    }
+
+    .summary {
+        width: 50%;
+    }
+}
